@@ -4,7 +4,7 @@
 
 <svelte:head>
     <title>BetterVanilla</title>
-    <meta name="description" content="Homepage" />
+    <meta name="description" content="A light vanilla modpack for minecraft" />
 </svelte:head>
 
 <style>
