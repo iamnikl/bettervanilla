@@ -1,8 +1,21 @@
 <script lang="js">
-    function themeswitcherClose() {
+    // redundancy for mobile devices compatibility
+    function themeswitcherCloseAuto() {
         document.getElementById('themeSelector').removeAttribute('open');
+        document.documentElement.setAttribute('data-theme', 'auto');
     }
 
+    function themeswitcherCloseDark() {
+        document.getElementById('themeSelector').removeAttribute('open');
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    function themeswitcherCloseLight() {
+        document.getElementById('themeSelector').removeAttribute('open');
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+
+    // main switcher functions
     function setthemeAuto() {
         document.documentElement.setAttribute('data-theme', 'auto');
     }
@@ -25,9 +38,9 @@
             <details role="list" dir="rtl" id="themeSelector">
                 <summary aria-haspopup="listbox" role="link">Theme</summary>
                 <ul role="listbox">
-                    <li><a href={'#'} on:click={themeswitcherClose} on:mouseover={setthemeAuto} on:focus={setthemeAuto}>Auto</a></li>
-                    <li><a href={'#'} on:click={themeswitcherClose} on:mouseover={setthemeDark} on:focus={setthemeAuto}>Dark</a></li>
-                    <li><a href={'#'} on:click={themeswitcherClose} on:mouseover={setthemeLight} on:focus={setthemeAuto}>Light</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeAuto} on:focus={themeswitcherCloseAuto}>Auto</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeDark} on:focus={themeswitcherCloseDark}>Dark</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeLight} on:focus={themeswitcherCloseLight}>Light</a></li>
                 </ul>
             </details>
         </li>
