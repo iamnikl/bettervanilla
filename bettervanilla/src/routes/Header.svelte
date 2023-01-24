@@ -30,7 +30,7 @@
                 </ul>
             </details>
         </li>
-        <li><a href="/Downloads">Downloads</a></li>
+        <li><a href="/downloads">Downloads</a></li>
     </ul>
 </nav>
 <hr/>
