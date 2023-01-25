@@ -27,8 +27,8 @@
                 <th scope="row">1.19.3</th>
                 <td>MultiMC Instance</td>
                 <td>Quilt</td>
-                <td>209.4 MB</td>
-                <td><a href="https://www.dropbox.com/s/lu9iex9xhpfk9gb/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
+                <td>209.1 MB</td>
+                <td><a href="https://www.dropbox.com/s/oc8s9c9g77eif3b/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
             </tr>
             <tr>
                 <th scope="row">1.19.3</th>
@@ -42,7 +42,7 @@
                 <td>MultiMC Instance</td>
                 <td>Quilt</td>
                 <td>217.1 MB</td>
-                <td><a href="https://www.dropbox.com/s/t58bbr2p35pov72/BetterVanilla-1.19.2.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
+                <td><a href="https://www.dropbox.com/s/5ghuv2ghqj6q8rw/BetterVanilla-1.19.2.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
             </tr>
             <tr>
                 <th scope="row">1.19.2</th>

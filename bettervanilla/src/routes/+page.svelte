@@ -40,7 +40,7 @@
     </hgroup>
     <div>
         <a href="#optimization" role="button" class="box-shadow">More info</a>
-        <a href="https://www.dropbox.com/s/lu9iex9xhpfk9gb/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline box-shadow">Download latest</a>
+        <a href="https://www.dropbox.com/s/oc8s9c9g77eif3b/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline box-shadow">Download latest</a>
     </div>
 </center>
 
