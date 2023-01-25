@@ -88,9 +88,9 @@
                     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                     <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Auto</a></li>
                     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                    <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Dark</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:click={themeswitcherCloseDark}>Dark</a></li>
                     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                    <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Light</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:click={themeswitcherCloseLight}>Light</a></li>
                 </ul>
             </details>
         </li>
