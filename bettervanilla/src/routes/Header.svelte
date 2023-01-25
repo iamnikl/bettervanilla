@@ -85,9 +85,9 @@
             <details role="list" dir="rtl" id="themeSelector">
                 <summary aria-haspopup="listbox" role="link">{themeTitle}</summary>
                 <ul role="listbox">
-                    <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseAuto}>Auto</a></li>
-                    <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseDark}>Dark</a></li>
-                    <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseLight}>Light</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseAuto} on:click={themeswitcherCloseAuto}>Auto</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseDark} on:click={themeswitcherCloseAuto}>Dark</a></li>
+                    <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseLight} on:click={themeswitcherCloseAuto}>Light</a></li>
                 </ul>
             </details>
         </li>
