@@ -39,8 +39,8 @@
         <h2>this modpack <code>enchances</code> only client-side aspects of the game allowing you to play on unmodded servers</h2>
     </hgroup>
     <div>
-        <a href="#optimization" role="button">More info</a>
-        <a href="https://www.dropbox.com/s/lu9iex9xhpfk9gb/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline">Download latest</a>
+        <a href="#optimization" role="button" class="box-shadow">More info</a>
+        <a href="https://www.dropbox.com/s/lu9iex9xhpfk9gb/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline box-shadow">Download latest</a>
     </div>
 </center>
 
@@ -55,37 +55,37 @@
 <br/>
 <br/>
 
-<Saos animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
+<Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
     <main class="container" id="optimization">
-        <article class="grid">
+        <article class="grid box-shadow">
             <div>
                 <img src="/img/sodium.png" alt="sodium">
             </div>
             <div>
                 <p style="line-height:2;">This modpack includes various optimization mods:<br/>
                     <a href="https://modrinth.com/mod/sodium" target="_blank" rel="noopener noreferrer">
-                        <kbd>Sodium</kbd>
+                        <kbd class="box-shadow">Sodium</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/sodium-extra" target="_blank" rel="noopener noreferrer">
-                        <kbd>Sodium Extra</kbd>
+                        <kbd class="box-shadow">Sodium Extra</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/starlight" target="_blank" rel="noopener noreferrer">
-                        <kbd>Starlight</kbd>
+                        <kbd class="box-shadow">Starlight</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/cull-leaves" target="_blank" rel="noopener noreferrer">
-                        <kbd>Cull Leaves</kbd>
+                        <kbd class="box-shadow">Cull Leaves</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/lithium" target="_blank" rel="noopener noreferrer">
-                        <kbd>Lithium</kbd>
+                        <kbd class="box-shadow">Lithium</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/smoothboot-fabric" target="_blank" rel="noopener noreferrer">
-                        <kbd>Smooth Boot</kbd>
+                        <kbd class="box-shadow">Smooth Boot</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/ferrite-core" target="_blank" rel="noopener noreferrer">
-                        <kbd>Ferrite Core</kbd>
+                        <kbd class="box-shadow">Ferrite Core</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/dynamic-fps" target="_blank" rel="noopener noreferrer">
-                        <kbd>Dynamic FPS</kbd>
+                        <kbd class="box-shadow">Dynamic FPS</kbd>
                     </a>
                 </p>
             </div>
@@ -95,46 +95,46 @@
 
 <br/>
 
-<Saos animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
+<Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
     <main class="container" id="utility">
-        <article class="grid">
+        <article class="grid box-shadow">
             <div>
                 <img src="/img/bettercmdblui.png" alt="bettercommandblockui">
             </div>
             <div>
                 <p style="line-height:2;">There are some utility mods too:<br/>
                     <a href="https://modrinth.com/mod/bettercommandblockui" target="_blank" rel="noopener noreferrer">
-                        <kbd>BetterCommandBlockUi</kbd>
+                        <kbd class="box-shadow">BetterCommandBlockUi</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/appleskin" target="_blank" rel="noopener noreferrer">
-                        <kbd>Apple Skin</kbd>
+                        <kbd class="box-shadow">Apple Skin</kbd>
                     </a>
                     <a href="https://github.com/cabaletta/baritone" target="_blank" rel="noopener noreferrer">
-                        <kbd>Baritone</kbd>
+                        <kbd class="box-shadow">Baritone</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/clickthrough" target="_blank" rel="noopener noreferrer">
-                        <kbd>ClickThrough</kbd>
+                        <kbd class="box-shadow">ClickThrough</kbd>
                     </a>
                     <a href="https://github.com/8bitFra/JustIRC" target="_blank" rel="noopener noreferrer">
-                        <kbd>JustIRC</kbd>
+                        <kbd class="box-shadow">JustIRC</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/modmenu" target="_blank" rel="noopener noreferrer">
-                        <kbd>Mod Menu</kbd>
+                        <kbd class="box-shadow">Mod Menu</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/roughly-enough-items" target="_blank" rel="noopener noreferrer">
-                        <kbd>Roughly Enough Items</kbd>
+                        <kbd class="box-shadow">Roughly Enough Items</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/no-chat-reports" target="_blank" rel="noopener noreferrer">
-                        <kbd>No Chat Reports</kbd>
+                        <kbd class="box-shadow">No Chat Reports</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/ok-zoomer" target="_blank" rel="noopener noreferrer">
-                        <kbd>Ok Zoomer</kbd>
+                        <kbd class="box-shadow">Ok Zoomer</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/portals-gui" target="_blank" rel="noopener noreferrer">
-                        <kbd>Portals Gui</kbd>
+                        <kbd class="box-shadow">Portals Gui</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/notebook" target="_blank" rel="noopener noreferrer">
-                        <kbd>Vanilla Notebook</kbd>
+                        <kbd class="box-shadow">Vanilla Notebook</kbd>
                     </a>
                 </p>
             </div>
@@ -144,55 +144,57 @@
 
 <br/>
 
-<Saos animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
+<Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
     <main class="container" id="visual">
-        <article class="grid">
+        <article class="grid box-shadow">
             <div>
                 <img src="/img/firstpersonmodel.jpg" alt="lambdynamiclights">
             </div>
             <div>
                 <p style="line-height:2;">Visual and audio mods:<br/>
                     <a href="https://modrinth.com/mod/first-person-model" target="_blank" rel="noopener noreferrer">
-                        <kbd>Firest-person Model</kbd>
+                        <kbd class="box-shadow">Firest-person Model</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/lambdynamiclights" target="_blank" rel="noopener noreferrer">
-                        <kbd>LambDynamicLights</kbd>
+                        <kbd class="box-shadow">LambDynamicLights</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/3dskinlayers" target="_blank" rel="noopener noreferrer">
-                        <kbd>3D Skin Layers</kbd>
+                        <kbd class="box-shadow">3D Skin Layers</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/ambientsounds" target="_blank" rel="noopener noreferrer">
-                        <kbd>Ambient Sounds</kbd>
+                        <kbd class="box-shadow">Ambient Sounds</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/chunks-fade-in" target="_blank" rel="noopener noreferrer">
-                        <kbd>Chunks fade in</kbd>
+                        <kbd class="box-shadow">Chunks fade in</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/eating-animation" target="_blank" rel="noopener noreferrer">
-                        <kbd>Eating Animation</kbd>
+                        <kbd class="box-shadow">Eating Animation</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/iris" target="_blank" rel="noopener noreferrer">
-                        <kbd>Iris Shaders</kbd>
+                        <kbd class="box-shadow">Iris Shaders</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/make_bubbles_pop" target="_blank" rel="noopener noreferrer">
-                        <kbd>Make Bubbles Pop</kbd>
+                        <kbd class="box-shadow">Make Bubbles Pop</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/no-night-vision-flickering" target="_blank" rel="noopener noreferrer">
-                        <kbd>No Night Vision Flickering</kbd>
+                        <kbd class="box-shadow">No Night Vision Flickering</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/not-enough-animations" target="_blank" rel="noopener noreferrer">
-                        <kbd>Not Enough Animations</kbd>
+                        <kbd class="box-shadow">Not Enough Animations</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/sound-physics-remastered" target="_blank" rel="noopener noreferrer">
-                        <kbd>Sound Physics Remastered</kbd>
+                        <kbd class="box-shadow">Sound Physics Remastered</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/telepistons" target="_blank" rel="noopener noreferrer">
-                        <kbd>Telepistons</kbd>
+                        <kbd class="box-shadow">Telepistons</kbd>
                     </a>
                     <a href="https://modrinth.com/mod/why-am-i-on-fire" target="_blank" rel="noopener noreferrer">
-                        <kbd>Why Am I On Fire?</kbd>
+                        <kbd class="box-shadow">Why Am I On Fire?</kbd>
                     </a>
                 </p>
             </div>
         </article>
     </main>
 </Saos>
+
+<br />

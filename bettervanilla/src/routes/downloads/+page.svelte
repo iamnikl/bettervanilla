@@ -28,28 +28,28 @@
                 <td>MultiMC Instance</td>
                 <td>Quilt</td>
                 <td>209.4 MB</td>
-                <td><a href="https://www.dropbox.com/s/lu9iex9xhpfk9gb/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline">Download</a></td>
+                <td><a href="https://www.dropbox.com/s/lu9iex9xhpfk9gb/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
             </tr>
             <tr>
                 <th scope="row">1.19.3</th>
                 <td>Mods Archive</td>
                 <td>Quilt</td>
                 <td>96.7 MB</td>
-                <td><a href="https://www.dropbox.com/s/nlgdptbiiun1xrr/BetterVanilla-1.19.3-mods.zip?dl=1" role="button" class="outline">Download</a></td>
+                <td><a href="https://www.dropbox.com/s/nlgdptbiiun1xrr/BetterVanilla-1.19.3-mods.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
             </tr>
             <tr>
                 <th scope="row">1.19.2</th>
                 <td>MultiMC Instance</td>
                 <td>Quilt</td>
                 <td>217.1 MB</td>
-                <td><a href="https://www.dropbox.com/s/t58bbr2p35pov72/BetterVanilla-1.19.2.zip?dl=1" role="button" class="outline">Download</a></td>
+                <td><a href="https://www.dropbox.com/s/t58bbr2p35pov72/BetterVanilla-1.19.2.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
             </tr>
             <tr>
                 <th scope="row">1.19.2</th>
                 <td>Mods Archive</td>
                 <td>Quilt</td>
                 <td>104.9 MB</td>
-                <td><a href="https://www.dropbox.com/s/1iq4eo4if5k4tnt/BetterVanilla-1.19.2-mods.zip?dl=1" role="button" class="outline">Download</a></td>
+                <td><a href="https://www.dropbox.com/s/1iq4eo4if5k4tnt/BetterVanilla-1.19.2-mods.zip?dl=1" role="button" class="outline box-shadow">Download</a></td>
             </tr>
         </tbody>
     </table>
