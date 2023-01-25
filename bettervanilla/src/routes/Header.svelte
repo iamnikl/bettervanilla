@@ -1,9 +1,16 @@
 <script lang="js">
     const storageKey = 'theme-preference'
     import { onMount } from "svelte"
+
+    var themeTitle = "Theme"
     
     onMount (() => {
         setthemePreference();
+        if (document.documentElement.getAttribute('data-theme') === 'dark') {
+            themeTitle = "Theme🌙"
+        } else if (document.documentElement.getAttribute('data-theme') === 'light') {
+            themeTitle = "Theme☀️"
+        }
     });
 
     // using click functions to close theme switcher for mobile devices compatibility
@@ -30,8 +37,12 @@
         document.getElementById('themeSelector').removeAttribute('open');
     }
 
+    function getPreference() {
+        return document.documentElement.getAttribute('data-theme')
+    }
+
     function setPreference() {
-        localStorage.setItem(storageKey, document.documentElement.getAttribute('data-theme'))
+        localStorage.setItem(storageKey, getPreference())
     }
     
     function setthemePreference() {
@@ -43,25 +54,28 @@
 
     function setthemeAuto() {
         document.documentElement.setAttribute('data-theme', 'auto');
+        themeTitle = "Theme"
     }
 
     function setthemeDark() {
         document.documentElement.setAttribute('data-theme', 'dark');
+        themeTitle = "Theme🌙"
     }
 
     function setthemeLight() {
         document.documentElement.setAttribute('data-theme', 'light');
+        themeTitle = "Theme☀️"
     }
 </script>
 
 <nav class="container-fluid">
     <ul>
-        <li><a href="/"><strong>Better Vanilla</strong></a></li>
+        <li><a href="/"><strong>BetterVanilla✨</strong></a></li>
     </ul>
     <ul>
         <li>
             <details role="list" dir="rtl" id="themeSelector">
-                <summary aria-haspopup="listbox" role="link">Theme</summary>
+                <summary aria-haspopup="listbox" role="link">{themeTitle}</summary>
                 <ul role="listbox">
                     <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseAuto}>Auto</a></li>
                     <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseDark}>Dark</a></li>
