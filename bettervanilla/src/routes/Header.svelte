@@ -1,15 +1,15 @@
 <script lang="js">
-    const storageKey = 'theme-preference'
-    import { onMount } from "svelte"
+    const storageKey = 'theme-preference';
+    import { onMount } from "svelte";
 
-    var themeTitle = "Theme"
+    var themeTitle = "Theme";
     
     onMount (() => {
         setthemePreference();
         if (document.documentElement.getAttribute('data-theme') === 'dark') {
-            themeTitle = "Theme🌙"
+            themeTitle = "Theme🌙";
         } else if (document.documentElement.getAttribute('data-theme') === 'light') {
-            themeTitle = "Theme☀️"
+            themeTitle = "Theme☀️";
         }
     });
 
@@ -46,25 +46,33 @@
     }
     
     function setthemePreference() {
-        if (localStorage.getItem(storageKey))
-            document.documentElement.setAttribute('data-theme', localStorage.getItem(storageKey));
-        else
+        if (localStorage.getItem(storageKey)) {
+                document.documentElement.setAttribute('data-theme', localStorage.getItem(storageKey));
+                if (localStorage.getItem(storageKey) === 'dark') {
+                    themeTitle = "Theme🌙";
+                } else if (localStorage.getItem(storageKey) === 'light') {
+                    themeTitle = "Theme☀️";
+                } else {
+                    themeTitle = "Theme";
+                }
+        } else {
             setthemeAuto();
+        }
     }
 
     function setthemeAuto() {
         document.documentElement.setAttribute('data-theme', 'auto');
-        themeTitle = "Theme"
+        themeTitle = "Theme";
     }
 
     function setthemeDark() {
         document.documentElement.setAttribute('data-theme', 'dark');
-        themeTitle = "Theme🌙"
+        themeTitle = "Theme🌙";
     }
 
     function setthemeLight() {
         document.documentElement.setAttribute('data-theme', 'light');
-        themeTitle = "Theme☀️"
+        themeTitle = "Theme☀️";
     }
 </script>
 
