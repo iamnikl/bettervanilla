@@ -85,9 +85,12 @@
             <details role="list" dir="rtl" id="themeSelector">
                 <summary aria-haspopup="listbox" role="link">{themeTitle}</summary>
                 <ul role="listbox">
-                    <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseAuto} on:click={themeswitcherCloseAuto}>Auto</a></li>
-                    <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseDark} on:click={themeswitcherCloseAuto}>Dark</a></li>
-                    <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:focus={themeswitcherCloseLight} on:click={themeswitcherCloseAuto}>Light</a></li>
+                    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                    <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Auto</a></li>
+                    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                    <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Dark</a></li>
+                    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                    <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Light</a></li>
                 </ul>
             </details>
         </li>
