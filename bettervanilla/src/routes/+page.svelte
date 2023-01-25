@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>BetterVanilla</title>
+    <title>BetterVanilla✨</title>
     <meta name="description" content="A light vanilla modpack for minecraft" />
 </svelte:head>
 
