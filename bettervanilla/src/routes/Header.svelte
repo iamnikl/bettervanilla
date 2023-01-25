@@ -44,7 +44,12 @@
                 </ul>
             </details>
         </li>
-        <li><a href="/downloads">Downloads</a></li>
+        <li>
+            <a href="/docs">Docs</a>
+        </li>
+        <li>
+            <a href="/downloads">Downloads</a>
+        </li>
     </ul>
 </nav>
 <hr/>
