@@ -1,18 +1,31 @@
 <script lang="js">
+    const storageKey = 'theme-preference'
+    import { onMount } from "svelte"
+    
+    onMount (async => {
+        if (localStorage.getItem(storageKey))
+            document.documentElement.setAttribute('data-theme', localStorage.getItem(storageKey));
+        else
+            setthemeAuto();
+    });
+
     // redundancy for mobile devices compatibility
     function themeswitcherCloseAuto() {
         document.getElementById('themeSelector').removeAttribute('open');
-        document.documentElement.setAttribute('data-theme', 'auto');
+        setthemeAuto();
+        localStorage.setItem(storageKey, document.documentElement.getAttribute('data-theme'))
     }
 
     function themeswitcherCloseDark() {
         document.getElementById('themeSelector').removeAttribute('open');
-        document.documentElement.setAttribute('data-theme', 'dark');
+        setthemeDark();
+        localStorage.setItem(storageKey, document.documentElement.getAttribute('data-theme'))
     }
 
     function themeswitcherCloseLight() {
         document.getElementById('themeSelector').removeAttribute('open');
-        document.documentElement.setAttribute('data-theme', 'light');
+        setthemeLight();
+        localStorage.setItem(storageKey, document.documentElement.getAttribute('data-theme'))
     }
 
     // main switcher functions
