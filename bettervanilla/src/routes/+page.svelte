@@ -19,7 +19,7 @@
 </center>
 
 <Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-    <main class="container" id="optimization">
+    <main class="container" id="optimization" style="padding-bottom: 1.5rem;">
         <article class="grid box-shadow">
             <div>
                 <img src="/img/sodium.png" alt="sodium">
@@ -56,10 +56,8 @@
     </main>
 </Saos>
 
-<br/>
-
 <Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-    <main class="container" id="utility">
+    <main class="container" id="utility" style="padding-bottom: 1.5rem;">
         <article class="grid box-shadow">
             <div>
                 <img src="/img/bettercmdblui.png" alt="bettercommandblockui">
@@ -104,8 +102,6 @@
         </article>
     </main>
 </Saos>
-
-<br/>
 
 <Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
     <main class="container" id="visual" style="padding-bottom: 1rem;">
