@@ -7,28 +7,6 @@
     <meta name="description" content="A light vanilla modpack for minecraft" />
 </svelte:head>
 
-<style>
-    @keyframes -global-from-left {
-        0% {
-            transform: rotateX(50deg) translateX(-200vw) skewX(-50deg);
-            opacity: 1;
-        }
-        100% {
-            transform: rotateX(0deg) translateX(0) skewX(0deg);
-            opacity: 1;
-        }
-    }
-
-    @keyframes -global-fade-in {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-</style>
-
 <br/>
 <br/>
 <br/>
