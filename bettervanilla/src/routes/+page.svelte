@@ -7,31 +7,16 @@
     <meta name="description" content="A light vanilla modpack for minecraft" />
 </svelte:head>
 
-<br/>
-<br/>
-<br/>
-
 <center>
-    <hgroup>
+    <hgroup style="padding-top: 6rem;">
         <h1 style="font-size: 3rem">A light vanilla modpack<br/>for Minecraft</h1>
         <h2>this modpack <code>enchances</code> only client-side aspects of the game allowing you to play on unmodded servers</h2>
     </hgroup>
-    <div>
+    <div style="padding-bottom: 18rem;">
         <a href="#optimization" role="button" class="box-shadow">More info</a>
         <a href="https://www.dropbox.com/s/oc8s9c9g77eif3b/BetterVanilla-1.19.3.zip?dl=1" role="button" class="outline box-shadow">Download latest</a>
     </div>
 </center>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 <Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
     <main class="container" id="optimization">
@@ -123,7 +108,7 @@
 <br/>
 
 <Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-    <main class="container" id="visual">
+    <main class="container" id="visual" style="padding-bottom: 1rem;">
         <article class="grid box-shadow">
             <div>
                 <img src="/img/firstpersonmodel.jpg" alt="lambdynamiclights">
@@ -174,5 +159,3 @@
         </article>
     </main>
 </Saos>
-
-<br />

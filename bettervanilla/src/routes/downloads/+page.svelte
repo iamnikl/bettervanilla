@@ -3,12 +3,8 @@
     <meta name="description" content="Modpack download page" />
 </svelte:head>
 
-<br/>
-<br/>
-<br/>
-
 <center>
-    <hgroup>
+    <hgroup style="padding-top: 6rem;">
         <h1>This modpack is available for multiple minecraft versions</h1>
         <h2>Download the one you need (preferred type is MultiMC Instance)</h2>
     </hgroup>
