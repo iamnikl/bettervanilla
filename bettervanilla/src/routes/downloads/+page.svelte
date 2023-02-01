@@ -4,7 +4,7 @@
 </svelte:head>
 
 <center>
-    <hgroup style="padding-top: 6rem;">
+    <hgroup style="padding-top: 8rem;">
         <h1>This modpack is available for multiple minecraft versions</h1>
         <h2>Download the one you need (preferred type is MultiMC Instance)</h2>
     </hgroup>

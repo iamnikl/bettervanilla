@@ -8,7 +8,7 @@
 </svelte:head>
 
 <center>
-    <hgroup style="padding-top: 6rem;">
+    <hgroup style="padding-top: 10rem;">
         <h1 style="font-size: 3rem">A light vanilla modpack<br/>for Minecraft</h1>
         <h2>this modpack <code>enchances</code> only client-side aspects of the game allowing you to play on unmodded servers</h2>
     </hgroup>
@@ -18,15 +18,17 @@
     </div>
 </center>
 
+<p id="optimization" style="position: relative; top: -3.7rem; visibility: hidden;"></p>
+
 <Saos once={true} animation={'from-left 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'}>
-    <main class="container" id="optimization" style="padding-bottom: 1.5rem;">
+    <main class="container" style="padding-bottom: 1.5rem;">
         <article class="grid box-shadow">
             <div>
                 <img src="/img/sodium.png" alt="sodium">
             </div>
             <div>
                 <p style="line-height:2;">This modpack includes various optimization mods:<br/>
-                    <a href="https://modrinth.com/mod/sodium" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/Sodium">
                         <kbd class="box-shadow">Sodium</kbd>
                     </a> 
                     <a href="https://modrinth.com/mod/sodium-extra" target="_blank" rel="noopener noreferrer">
@@ -155,3 +157,10 @@
         </article>
     </main>
 </Saos>
+
+<div>
+    <hr />
+    <footer class="container-fluid" style="text-align: right;">
+        <small>Built with <a href="https://picocss.com" target="_blank" rel="noopener noreferrer">Pico</a> and <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer">SvelteKit</a> <strong>•</strong> <a href="https://github.com/HACCKKER/bettervanilla" target="_blank" rel="noopener noreferrer">Source code</a> <strong>•</strong> <a href="/about">About</a></small>
+    </footer>
+</div>

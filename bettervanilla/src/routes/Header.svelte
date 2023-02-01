@@ -76,30 +76,31 @@
     }
 </script>
 
-<nav class="container-fluid">
-    <ul>
-        <li><a href="/"><strong>BetterVanilla✨</strong></a></li>
-    </ul>
-    <ul>
-        <li>
-            <details role="list" dir="rtl" id="themeSelector">
-                <summary aria-haspopup="listbox" role="link">{themeTitle}</summary>
-                <ul role="listbox">
-                    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                    <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Auto</a></li>
-                    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                    <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:click={themeswitcherCloseDark}>Dark</a></li>
-                    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                    <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:click={themeswitcherCloseLight}>Light</a></li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <a href="/docs">Docs</a>
-        </li>
-        <li>
-            <a href="/downloads">Downloads</a>
-        </li>
-    </ul>
-</nav>
-<hr/>
+<div style="-webkit-backdrop-filter: blur(20px); z-index: 99; position: fixed; right: 0; left: 0; backdrop-filter: blur(20px);">
+    <nav class="container-fluid" style="box-shadow: 0 1px 0 rgba(115, 130, 140, 0.2);">
+        <ul>
+            <li><a href="/"><strong>BetterVanilla✨</strong></a></li>
+        </ul>
+        <ul>
+            <li>
+                <details role="list" dir="rtl" id="themeSelector">
+                    <summary aria-haspopup="listbox" role="link">{themeTitle}</summary>
+                    <ul role="listbox">
+                        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                        <li><a href={'#'} on:mouseover={setthemeAuto} on:mouseleave={setthemePreference} on:click={themeswitcherCloseAuto}>Auto</a></li>
+                        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                        <li><a href={'#'} on:mouseover={setthemeDark} on:mouseleave={setthemePreference} on:click={themeswitcherCloseDark}>Dark</a></li>
+                        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                        <li><a href={'#'} on:mouseover={setthemeLight} on:mouseleave={setthemePreference} on:click={themeswitcherCloseLight}>Light</a></li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <a href="/docs">Docs</a>
+            </li>
+            <li>
+                <a href="/downloads">Downloads</a>
+            </li>
+        </ul>
+    </nav>
+</div>
