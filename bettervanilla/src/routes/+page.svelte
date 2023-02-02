@@ -31,25 +31,25 @@
                     <a href="/docs/mods/Sodium">
                         <kbd class="box-shadow">Sodium</kbd>
                     </a> 
-                    <a href="https://modrinth.com/mod/sodium-extra" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/SodiumExtra">
                         <kbd class="box-shadow">Sodium Extra</kbd>
                     </a> 
-                    <a href="https://modrinth.com/mod/starlight" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/Starlight">
                         <kbd class="box-shadow">Starlight</kbd>
                     </a> 
-                    <a href="https://modrinth.com/mod/cull-leaves" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/CullLeaves">
                         <kbd class="box-shadow">Cull Leaves</kbd>
                     </a> 
-                    <a href="https://modrinth.com/mod/lithium" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/Lithium">
                         <kbd class="box-shadow">Lithium</kbd>
                     </a> 
-                    <a href="https://modrinth.com/mod/smoothboot-fabric" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/SmoothBoot">
                         <kbd class="box-shadow">Smooth Boot</kbd>
                     </a> 
-                    <a href="https://modrinth.com/mod/ferrite-core" target="_blank" rel="noopener noreferrer">
-                        <kbd class="box-shadow">Ferrite Core</kbd>
+                    <a href="/docs/mods/FerriteCore">
+                        <kbd class="box-shadow">FerriteCore</kbd>
                     </a> 
-                    <a href="https://modrinth.com/mod/dynamic-fps" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/DynamicFps">
                         <kbd class="box-shadow">Dynamic FPS</kbd>
                     </a>
                 </p>
@@ -66,37 +66,37 @@
             </div>
             <div>
                 <p style="line-height:2;">There are some utility mods too:<br/>
-                    <a href="https://modrinth.com/mod/bettercommandblockui" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/BetterCommandBlockUI">
                         <kbd class="box-shadow">BetterCommandBlockUi</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/appleskin" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/Appleskin">
                         <kbd class="box-shadow">Apple Skin</kbd>
                     </a>
-                    <a href="https://github.com/cabaletta/baritone" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/Baritone">
                         <kbd class="box-shadow">Baritone</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/clickthrough" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/ClickThrough">
                         <kbd class="box-shadow">ClickThrough</kbd>
                     </a>
-                    <a href="https://github.com/8bitFra/JustIRC" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/JustIRC">
                         <kbd class="box-shadow">JustIRC</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/modmenu" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/ModMenu">
                         <kbd class="box-shadow">Mod Menu</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/roughly-enough-items" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/REI">
                         <kbd class="box-shadow">Roughly Enough Items</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/no-chat-reports" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/NoChatReports">
                         <kbd class="box-shadow">No Chat Reports</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/ok-zoomer" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/OkZoomer">
                         <kbd class="box-shadow">Ok Zoomer</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/portals-gui" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/PortalsGUI">
                         <kbd class="box-shadow">Portals Gui</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/notebook" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/VanillaNotebook">
                         <kbd class="box-shadow">Vanilla Notebook</kbd>
                     </a>
                 </p>

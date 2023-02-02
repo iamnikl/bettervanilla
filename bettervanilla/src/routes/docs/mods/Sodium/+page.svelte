@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Docs • Sodium</title>
-	<meta name="description" content="Why was Sodium added to the modpack" />
+	<meta name="description" content="Sodium" />
 </svelte:head>
 
 <hgroup>

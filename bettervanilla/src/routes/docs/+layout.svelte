@@ -6,7 +6,7 @@
 </style>
 
 <main class="container" style="padding-top: 8rem; grid-column-gap: 5rem; display: grid; grid-template-columns: 10rem auto;">
-    <aside style="overflow-y: auto; overflow-x: hidden; display: inline-block;">
+    <aside style="display: inline-block; overflow-y: auto; overflow-x: hidden;">
         <nav style="position: fixed;">
             <details open="true">
                 <summary>Installation</summary>
@@ -23,10 +23,7 @@
                 <summary>Mods</summary>
                 <ul>
                     <li>
-                        <a class="secondary" href="/docs/mods">Mod List</a>
-                    </li>
-                    <li>
-                        <a class="secondary" href="/docs/mods/Sodium">Sodium</a>
+                        <a class="secondary" href="/docs/mods">List</a>
                     </li>
                 </ul>
             </details>
