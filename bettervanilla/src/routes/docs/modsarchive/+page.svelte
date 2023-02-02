@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Docs • Mods-Archive</title>
+	<title>Docs • Mods Archive</title>
 	<meta name="description" content="Modpack documentation" />
 </svelte:head>
 
