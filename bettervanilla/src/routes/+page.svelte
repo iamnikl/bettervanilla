@@ -112,44 +112,44 @@
                 <img src="/img/firstpersonmodel.jpg" alt="lambdynamiclights">
             </div>
             <div>
-                <p style="line-height:2;">Visual and audio mods:<br/>
-                    <a href="https://modrinth.com/mod/first-person-model" target="_blank" rel="noopener noreferrer">
+                <p style="line-height:2;">Visual and Audio mods:<br/>
+                    <a href="/docs/mods/FirstPersonModel">
                         <kbd class="box-shadow">Firest-person Model</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/lambdynamiclights" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/LambDynamicLights">
                         <kbd class="box-shadow">LambDynamicLights</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/3dskinlayers" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/3DSkinLayers">
                         <kbd class="box-shadow">3D Skin Layers</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/ambientsounds" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/AmbientSounds">
                         <kbd class="box-shadow">Ambient Sounds</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/chunks-fade-in" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/ChunksFadeIn">
                         <kbd class="box-shadow">Chunks fade in</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/eating-animation" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/EatingAnimation">
                         <kbd class="box-shadow">Eating Animation</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/iris" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/Iris">
                         <kbd class="box-shadow">Iris Shaders</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/make_bubbles_pop" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/MakeBubblesPop">
                         <kbd class="box-shadow">Make Bubbles Pop</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/no-night-vision-flickering" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/NoNightVisionFlickering">
                         <kbd class="box-shadow">No Night Vision Flickering</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/not-enough-animations" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/NotEnoughAnimations">
                         <kbd class="box-shadow">Not Enough Animations</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/sound-physics-remastered" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/SoundPhysicsRemastered">
                         <kbd class="box-shadow">Sound Physics Remastered</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/telepistons" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/Telepistons">
                         <kbd class="box-shadow">Telepistons</kbd>
                     </a>
-                    <a href="https://modrinth.com/mod/why-am-i-on-fire" target="_blank" rel="noopener noreferrer">
+                    <a href="/docs/mods/WhyAmIOnFire">
                         <kbd class="box-shadow">Why Am I On Fire?</kbd>
                     </a>
                 </p>

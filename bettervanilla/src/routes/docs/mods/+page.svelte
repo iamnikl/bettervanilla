@@ -97,3 +97,57 @@
 <a href="/docs/mods/VanillaNotebook">
 	Vanilla Notebook
 </a>
+<p>
+	Audio and Visual mods:
+</p>
+<a href="/docs/mods/FirstPersonModel">
+	First-person Model
+</a>
+<br />
+<a href="/docs/mods/LambDynamicLights">
+	LambDynamicLights
+</a>
+<br />
+<a href="/docs/mods/3DSkinLayers">
+	3D Skin Layers
+</a>
+<br />
+<a href="/docs/mods/AmbientSounds">
+	Ambient Sounds
+</a>
+<br />
+<a href="/docs/mods/ChunksFadeIn">
+	Chunks fade in
+</a>
+<br />
+<a href="/docs/mods/EatingAnimation">
+	Eating Animation
+</a>
+<br />
+<a href="/docs/mods/Iris">
+	Iris
+</a>
+<br />
+<a href="/docs/mods/MakeBubblesPop">
+	Make Bubbles Pop
+</a>
+<br />
+<a href="/docs/mods/NoNightVisionFlickering">
+	No Night Vision Flickering
+</a>
+<br />
+<a href="/docs/mods/NotEnoughAnimation">
+	Not Enough Animations
+</a>
+<br />
+<a href="/docs/mods/SoundPhysicsRemastered">
+	Sound Physics Remastered
+</a>
+<br />
+<a href="/docs/mods/Telepistons">
+	Telepistons
+</a>
+<br />
+<a href="/docs/mods/WhyAmIOnFire" style="padding-bottom: 4rem;">
+	Why Am I On Fire?
+</a>
