@@ -136,7 +136,7 @@
 	No Night Vision Flickering
 </a>
 <br />
-<a href="/docs/mods/NotEnoughAnimation">
+<a href="/docs/mods/NotEnoughAnimations">
 	Not Enough Animations
 </a>
 <br />
