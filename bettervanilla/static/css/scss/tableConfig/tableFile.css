@@ -1,0 +1,29 @@
+.referenceTable thead th:first-of-type {
+  width: 30vw;
+}
+.referenceTable [colspan] {
+  text-align: center;
+  font-weight: 600;
+}
+.referenceTable [colspan] span[data-undercategory]::after {
+  display: inline-block;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(59, 59, 59, 0.836);
+  color: aqua;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7.5px;
+  content: attr(data-undercategory);
+}
+.referenceTable a::after {
+  content: attr(href);
+}
+
+.referenceTable thead th:first-of-type {
+  width: 30vw;
+}/*# sourceMappingURL=tableFile.css.map */

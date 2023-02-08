@@ -536,19 +536,20 @@ progress,
 *::before,
 *::after {
   box-sizing: border-box;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
 ::before,
 ::after {
   text-decoration: inherit;
-  vertical-align: inherit;
+  /* vertical-align: inherit; */
 }
 
-:where(:root) {
-  -webkit-tap-highlight-color: transparent;
+/* :where(:root) -- removed | Niklas 31.01.23 */
+:root {
+  /* -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; */
   text-size-adjust: 100%;
   background-color: var(--background-color);
   color: var(--color);
@@ -556,12 +557,12 @@ progress,
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family);
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   overflow-wrap: break-word;
   cursor: default;
-  -moz-tab-size: 4;
+  /* -moz-tab-size: 4;
   -o-tab-size: 4;
-  tab-size: 4;
+  tab-size: 4; */
 }
 
 /**
@@ -835,7 +836,7 @@ small {
 }
 
 ul li {
-  list-style: square;
+  list-style:square;
 }
 
 mark {
@@ -845,7 +846,7 @@ mark {
   vertical-align: baseline;
 }
 
-blockquote {
+/* blockquote {
   display: block;
   margin: var(--typography-spacing-vertical) 0;
   padding: var(--spacing);
@@ -859,7 +860,7 @@ blockquote {
 blockquote footer {
   margin-top: calc(var(--typography-spacing-vertical) * 0.5);
   color: var(--blockquote-footer-color);
-}
+} */
 
 abbr[title] {
   border-bottom: 1px dotted;
@@ -911,13 +912,13 @@ img {
   border-style: none;
 }
 
-:where(svg:not([fill])) {
+/* :where(svg:not([fill])) {
   fill: currentColor;
-}
+} */
 
-svg:not(:root) {
+/* svg:not(:root) {
   overflow: hidden;
-}
+} */
 
 /**
  * Button
@@ -926,15 +927,15 @@ button {
   margin: 0;
   overflow: visible;
   font-family: inherit;
-  text-transform: none;
+  /* text-transform: none; */
 }
-
+/* 
 button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-}
+} */
 
 button {
   display: block;
@@ -959,7 +960,7 @@ input[type=reset],
   padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
   border: var(--border-width) solid var(--border-color);
   border-radius: var(--border-radius);
-  outline: none;
+  /* outline: none; */
   background-color: var(--background-color);
   box-shadow: var(--box-shadow);
   color: var(--color);
@@ -1075,15 +1076,15 @@ input {
   overflow: visible;
 }
 
-select {
+/* select {
   text-transform: none;
-}
+} */
 
 legend {
   max-width: 100%;
   padding: 0;
   color: inherit;
-  white-space: normal;
+  /* white-space: normal; */
 }
 
 textarea {
@@ -1094,7 +1095,7 @@ textarea {
 [type=radio] {
   padding: 0;
 }
-
+/* 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
   height: auto;
@@ -1129,7 +1130,7 @@ textarea {
 
 ::-ms-expand {
   display: none;
-}
+} */
 
 [type=file],
 [type=range] {
@@ -1164,9 +1165,9 @@ textarea {
 input:not([type=checkbox], [type=radio], [type=range], [type=file]),
 select,
 textarea {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: none; */
   padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
 }
 
@@ -1220,9 +1221,9 @@ textarea[disabled],
   padding-inline-start: var(--form-element-spacing-horizontal) !important;
   -webkit-padding-end: calc(var(--form-element-spacing-horizontal) + 1.5rem) !important;
   padding-inline-end: calc(var(--form-element-spacing-horizontal) + 1.5rem) !important;
-  background-position: center right 0.75rem;
+  /* background-position: center right 0.75rem;
   background-size: 1rem auto;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 :where(input, select, textarea):not([type=checkbox], [type=radio], [type=date], [type=datetime-local], [type=month], [type=time], [type=week])[aria-invalid=false] {
   background-image: var(--icon-valid);
@@ -1245,9 +1246,9 @@ textarea[disabled],
   --box-shadow: 0 0 0 var(--outline-width) var(--form-element-invalid-focus-color) !important;
 }
 
-[dir=rtl] :where(input, select, textarea):not([type=checkbox], [type=radio]):is([aria-invalid], [aria-invalid=true], [aria-invalid=false]) {
+/* [dir=rtl] :where(input, select, textarea):not([type=checkbox], [type=radio]):is([aria-invalid], [aria-invalid=true], [aria-invalid=false]) {
   background-position: center left 0.75rem;
-}
+} */
 
 input::placeholder,
 input::-webkit-input-placeholder,
@@ -1263,11 +1264,12 @@ select,
 textarea {
   margin-bottom: var(--spacing);
 }
-
+/* 
 select::-ms-expand {
   border: 0;
   background-color: transparent;
-}
+} */
+
 select:not([multiple], [size]) {
   padding-right: calc(var(--form-element-spacing-horizontal) + 1.5rem);
   padding-left: var(--form-element-spacing-horizontal);
@@ -1275,15 +1277,15 @@ select:not([multiple], [size]) {
   padding-inline-start: var(--form-element-spacing-horizontal);
   -webkit-padding-end: calc(var(--form-element-spacing-horizontal) + 1.5rem);
   padding-inline-end: calc(var(--form-element-spacing-horizontal) + 1.5rem);
-  background-image: var(--icon-chevron);
+  /* background-image: var(--icon-chevron);
   background-position: center right 0.75rem;
   background-size: 1rem auto;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
-[dir=rtl] select:not([multiple], [size]) {
+/* [dir=rtl] select:not([multiple], [size]) {
   background-position: center left 0.75rem;
-}
+} */
 
 :where(input, select, textarea) + small {
   display: block;
@@ -1303,9 +1305,9 @@ label > :where(input, select, textarea) {
  */
 [type=checkbox],
 [type=radio] {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: none; */
   width: 1.25em;
   height: 1.25em;
   margin-top: -0.125em;
@@ -1398,7 +1400,7 @@ label > :where(input, select, textarea) {
   margin-inline-start: calc(1.125em - var(--border-width));
 }
 
-[type=checkbox][aria-invalid=false],
+/* [type=checkbox][aria-invalid=false],
 [type=checkbox]:checked[aria-invalid=false],
 [type=radio][aria-invalid=false],
 [type=radio]:checked[aria-invalid=false],
@@ -1415,10 +1417,7 @@ label > :where(input, select, textarea) {
   --border-color: var(--form-element-invalid-border-color);
 }
 
-/**
- * Form elements
- * Alternatives input types (Not Checkboxes & Radios)
- */
+/*
 [type=color]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
@@ -1432,9 +1431,9 @@ label > :where(input, select, textarea) {
 [type=color]::-moz-color-swatch {
   border: 0;
   border-radius: calc(var(--border-radius) * 0.5);
-}
+} */
 
-input:not([type=checkbox], [type=radio], [type=range], [type=file]):is([type=date], [type=datetime-local], [type=month], [type=time], [type=week]) {
+/* input:not([type=checkbox], [type=radio], [type=range], [type=file]):is([type=date], [type=datetime-local], [type=month], [type=time], [type=week]) {
   --icon-position: 0.75rem;
   --icon-width: 1rem;
   padding-right: calc(var(--icon-width) + var(--icon-position));
@@ -1445,9 +1444,9 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file]):is([type=dat
 }
 input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
   background-image: var(--icon-time);
-}
+} */
 
-[type=date]::-webkit-calendar-picker-indicator,
+/* [type=date]::-webkit-calendar-picker-indicator,
 [type=datetime-local]::-webkit-calendar-picker-indicator,
 [type=month]::-webkit-calendar-picker-indicator,
 [type=time]::-webkit-calendar-picker-indicator,
@@ -1460,8 +1459,8 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 
 [dir=rtl] :is([type=date], [type=datetime-local], [type=month], [type=time], [type=week]) {
   text-align: right;
-}
-
+} */
+/* 
 [type=file] {
   --color: var(--muted-color);
   padding: calc(var(--form-element-spacing-vertical) * 0.5) 0;
@@ -1552,17 +1551,17 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 [type=file]::-ms-browse:is(:hover, :active, :focus) {
   --background-color: var(--secondary-hover);
   --border-color: var(--secondary-hover);
-}
+} */
 
 [type=range] {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: none; */
   width: 100%;
   height: 1.25rem;
   background: none;
 }
-[type=range]::-webkit-slider-runnable-track {
+/* [type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 0.25rem;
   border-radius: var(--border-radius);
@@ -1621,7 +1620,7 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
   cursor: pointer;
   -ms-transition: background-color var(--transition), transform var(--transition);
   transition: background-color var(--transition), transform var(--transition);
-}
+} */
 [type=range]:hover, [type=range]:focus {
   --range-border-color: var(--range-active-border-color);
   --range-thumb-color: var(--range-thumb-hover-color);
@@ -1629,7 +1628,7 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 [type=range]:active {
   --range-thumb-color: var(--range-thumb-active-color);
 }
-[type=range]:active::-webkit-slider-thumb {
+/* [type=range]:active::-webkit-slider-thumb {
   transform: scale(1.25);
 }
 [type=range]:active::-moz-range-thumb {
@@ -1637,9 +1636,9 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 }
 [type=range]:active::-ms-thumb {
   transform: scale(1.25);
-}
+} */
 
-input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=search] {
+/* input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=search] {
   -webkit-padding-start: calc(var(--form-element-spacing-horizontal) + 1.75rem);
   padding-inline-start: calc(var(--form-element-spacing-horizontal) + 1.75rem);
   border-radius: 5rem;
@@ -1663,23 +1662,23 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=search]
 [type=search]::-webkit-search-cancel-button {
   -webkit-appearance: none;
   display: none;
-}
+} */
 
-[dir=rtl] :where(input):not([type=checkbox], [type=radio], [type=range], [type=file])[type=search] {
+/* [dir=rtl] :where(input):not([type=checkbox], [type=radio], [type=range], [type=file])[type=search] {
   background-position: center right 1.125rem;
 }
 [dir=rtl] :where(input):not([type=checkbox], [type=radio], [type=range], [type=file])[type=search][aria-invalid] {
   background-position: center right 1.125rem, center left 0.75rem;
-}
+} */
 
 /**
  * Table
  */
-:where(table) {
+table {
   width: 100%;
   border-collapse: collapse;
-  border-spacing: 0;
-  text-indent: 0;
+  /* border-spacing: 0;
+  text-indent: 0; */
 }
 
 th,
@@ -1689,7 +1688,6 @@ td {
   color: var(--color);
   font-weight: var(--font-weight);
   font-size: var(--font-size);
-  text-align: left;
   text-align: start;
 }
 
@@ -1714,10 +1712,10 @@ samp {
   font-family: var(--font-family);
 }
 
-pre {
+/* pre {
   -ms-overflow-style: scrollbar;
   overflow: auto;
-}
+} */
 
 pre,
 code,
@@ -1726,7 +1724,7 @@ kbd {
   background: var(--code-background-color);
   color: var(--code-color);
   font-weight: var(--font-weight);
-  line-height: initial;
+  /* line-height: initial; */
 }
 
 code,
@@ -1781,14 +1779,14 @@ hr {
   color: inherit;
 }
 
-[hidden],
+/* [hidden],
 template {
   display: none !important;
-}
+} */
 
-canvas {
+/* canvas {
   display: inline-block;
-}
+} */
 
 /**
  * Accordion (<details>)
@@ -1808,15 +1806,15 @@ details summary {
 details summary:not([role]) {
   color: var(--accordion-close-summary-color);
 }
-details summary::-webkit-details-marker {
+/* details summary::-webkit-details-marker {
   display: none;
-}
-details summary::marker {
+} */
+/* details summary::marker {
   display: none;
-}
-details summary::-moz-list-bullet {
+} */
+/* details summary::-moz-list-bullet {
   list-style-type: none;
-}
+} */
 details summary::after {
   display: block;
   width: 1rem;
@@ -1828,7 +1826,7 @@ details summary::after {
   background-image: var(--icon-chevron);
   background-position: right center;
   background-size: 1rem auto;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   content: "";
   transition: transform var(--transition);
 }
@@ -1859,13 +1857,13 @@ details[open] > summary::after {
   transform: rotate(0);
 }
 
-[dir=rtl] details summary {
+/* [dir=rtl] details summary {
   text-align: right;
 }
 [dir=rtl] details summary::after {
   float: left;
   background-position: left center;
-}
+} */
 
 /**
  * Card (<article>)
@@ -1906,7 +1904,7 @@ article > footer {
   --scrollbar-width: 0px;
 }
 
-dialog {
+/* dialog {
   display: flex;
   z-index: 999;
   position: fixed;
@@ -2025,13 +2023,13 @@ dialog:not([open]), dialog[open=false] {
     transform: translateY(-100%);
     opacity: 0;
   }
-}
+} */
 /**
  * Nav
  */
 :where(nav li)::before {
   float: left;
-  content: "​";
+  content: "";
 }
 
 nav,
@@ -2119,14 +2117,15 @@ aside li a {
 aside li [role=button] {
   margin: inherit;
 }
-
+/* 
 [dir=rtl] nav[aria-label=breadcrumb] ul li:not(:last-child) ::after {
   content: "\\";
-}
+} */
 
 /**
  * Progress
  */
+/* 
 progress {
   display: inline-block;
   vertical-align: baseline;
@@ -2182,7 +2181,8 @@ progress::-moz-progress-bar {
   100% {
     background-position: -200% 0;
   }
-}
+} */
+
 /**
  * Dropdown ([role="list"])
  */
@@ -2209,7 +2209,7 @@ li[role=list] > ul {
   background-color: var(--dropdown-background-color);
   box-shadow: var(--card-box-shadow);
   color: var(--dropdown-color);
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 details[role=list] summary + ul li,
 li[role=list] > ul li {
@@ -2218,14 +2218,14 @@ li[role=list] > ul li {
   padding: calc(var(--form-element-spacing-vertical) * 0.5) var(--form-element-spacing-horizontal);
   list-style: none;
 }
-details[role=list] summary + ul li:first-of-type,
+/* details[role=list] summary + ul li:first-of-type,
 li[role=list] > ul li:first-of-type {
   margin-top: calc(var(--form-element-spacing-vertical) * 0.5);
 }
 details[role=list] summary + ul li:last-of-type,
 li[role=list] > ul li:last-of-type {
   margin-bottom: calc(var(--form-element-spacing-vertical) * 0.5);
-}
+} */
 details[role=list] summary + ul li a,
 li[role=list] > ul li a {
   display: block;
@@ -2241,6 +2241,7 @@ li[role=list] > ul li a:hover {
   background-color: var(--dropdown-hover-background-color);
 }
 
+/* Dropdown Pfeil Pseudoelement! */
 details[role=list] summary::after,
 li[role=list] > a::after {
   display: block;
@@ -2260,10 +2261,10 @@ details[role=list] {
   padding: 0;
   border-bottom: none;
 }
-details[role=list] summary {
+/* details[role=list] summary {
   margin-bottom: 0;
-}
-details[role=list] summary:not([role]) {
+} */
+/* details[role=list] summary:not([role]) {
   height: calc(1rem * var(--line-height) + var(--form-element-spacing-vertical) * 2 + var(--border-width) * 2);
   padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
   border: var(--border-width) solid var(--form-element-border-color);
@@ -2273,19 +2274,20 @@ details[role=list] summary:not([role]) {
   line-height: inherit;
   cursor: pointer;
   transition: background-color var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition);
-}
-details[role=list] summary:not([role]):active, details[role=list] summary:not([role]):focus {
+} */
+/* details[role=list] summary:not([role]):active, details[role=list] summary:not([role]):focus {
   border-color: var(--form-element-active-border-color);
   background-color: var(--form-element-active-background-color);
 }
 details[role=list] summary:not([role]):focus {
   box-shadow: 0 0 0 var(--outline-width) var(--form-element-focus-color);
-}
-details[role=list][open] summary {
+} */
+/* details[role=list][open] summary {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-}
+} */
 details[role=list][open] summary::before {
+  /* Erstellt Pseudoelement, wenn summary Attribut "open" enthält */
   display: block;
   z-index: 1;
   position: fixed;
@@ -2301,33 +2303,33 @@ details[role=list][open] summary::before {
 nav details[role=list] summary,
 nav li[role=list] a {
   display: flex;
-  direction: ltr;
+  direction: ltr; /*Links nach rechts -> Dropbown Pfeil kommt nach dem eigentlichem Label*/
 }
 
 nav details[role=list] summary + ul,
 nav li[role=list] > ul {
-  min-width: -moz-fit-content;
-  min-width: fit-content;
+  /* min-width: -moz-fit-content;
+  min-width: fit-content; */
   border-radius: var(--border-radius);
-}
-nav details[role=list] summary + ul li a,
-nav li[role=list] > ul li a {
-  border-radius: 0;
-}
-
-nav details[role=list] summary,
-nav details[role=list] summary:not([role]) {
-  height: auto;
-  padding: var(--nav-link-spacing-vertical) var(--nav-link-spacing-horizontal);
-}
-nav details[role=list][open] summary {
-  border-radius: var(--border-radius);
-}
-nav details[role=list] summary + ul {
   margin-top: var(--outline-width);
   -webkit-margin-start: 0;
   margin-inline-start: 0;
 }
+/* nav details[role=list] summary + ul li a,
+nav li[role=list] > ul li a {
+  border-radius: 0;
+} */
+
+/* nav details[role=list] summary,
+nav details[role=list] summary:not([role]) {
+  height: auto;
+  padding: var(--nav-link-spacing-vertical) var(--nav-link-spacing-horizontal);
+} */
+
+/* nav details[role=list][open] summary {
+  border-radius: var(--border-radius);
+} */
+
 nav details[role=list] summary[role=link] {
   margin-bottom: calc(var(--nav-link-spacing-vertical) * -1);
   line-height: var(--line-height);
@@ -2338,20 +2340,22 @@ nav details[role=list] summary[role=link] + ul {
   margin-inline-start: calc(var(--nav-link-spacing-horizontal) * -1);
 }
 
-li[role=list]:hover > ul,
+/* li[role=list]:hover > ul,
 li[role=list] a:active ~ ul,
 li[role=list] a:focus ~ ul {
   display: flex;
-}
-li[role=list] > ul {
+} */
+
+/* li[role=list] > ul {
   display: none;
   margin-top: calc(var(--nav-link-spacing-vertical) + var(--outline-width));
   -webkit-margin-start: calc(var(--nav-element-spacing-horizontal) - var(--nav-link-spacing-horizontal));
   margin-inline-start: calc(var(--nav-element-spacing-horizontal) - var(--nav-link-spacing-horizontal));
-}
-li[role=list] > a::after {
+} */
+
+/* li[role=list] > a::after {
   background-image: var(--icon-chevron);
-}
+} */
 
 /**
  * Loading ([aria-busy=true])

@@ -1,0 +1,29 @@
+$siteLabelColor: rgb(255, 255, 255);
+
+.referenceTable {
+    thead th:first-of-type {
+        width: 30vw;
+    };
+    [colspan]{
+        text-align: center;
+        font-weight: 600;
+
+        span[data-undercategory]::after {
+            display: inline-block;
+            height: fit-content;
+            width: fit-content;
+            background-color: rgba(59, 59, 59, 0.836);
+            color: aqua;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 7.5px;
+            content: attr(data-undercategory);
+        }
+    }
+    a::after {
+        content: attr(href);
+    }
+}
+.referenceTable thead th:first-of-type {
+    width: 30vw
+}

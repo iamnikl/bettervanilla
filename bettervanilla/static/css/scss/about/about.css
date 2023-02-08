@@ -1,0 +1,85 @@
+.marginToHeader {
+  margin-top: 100px;
+}
+
+#developersContainer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px !important;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#developersContainer article {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px;
+  padding: 30px;
+  cursor: pointer;
+}
+#developersContainer article h2 {
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+#developersContainer article h3 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: grey;
+}
+#developersContainer article:hover {
+  transform: scale(1.2, 1.2);
+}
+#developersContainer a {
+  text-decoration: none;
+}
+#developersContainer:hover article:not(:hover) {
+  transform: scale(0.9, 0.9);
+  -webkit-transform: scale(0.9, 0.9);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  filter: opacity(40%);
+}
+
+#personWorkInformations {
+  padding: 30px;
+}
+#personWorkInformations h3 {
+  font-weight: 600;
+  color: var(--primary);
+}
+#personWorkInformations .header-gray-light {
+  font-size: 1rem;
+  color: rgb(170, 170, 170);
+  font-weight: 600;
+}
+#personWorkInformations details summary {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#personWorkInformations details summary h4 {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#personWorkInformations details[open] h4 {
+  color: var(--primary-hover);
+}
+#personWorkInformations ul {
+  color: rgb(236, 236, 236);
+}
+#personWorkInformations ul ::marker {
+  color: rgb(82, 82, 82);
+}/*# sourceMappingURL=about.css.map */

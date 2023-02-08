@@ -1,0 +1,28 @@
+.slideInAnimation {
+  -webkit-animation-name: slideIn;
+          animation-name: slideIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    margin-top: -500px;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    margin-top: -500px;
+  }
+  to {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=mainAnimation.css.map */
