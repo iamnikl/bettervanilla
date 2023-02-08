@@ -76,7 +76,7 @@
     }
 </script>
 
-<div style="-webkit-backdrop-filter: blur(20px); z-index: 99; position: fixed; right: 0; left: 0; backdrop-filter: blur(20px);">
+<div style="-webkit-backdrop-filter: blur(20px); z-index: 99; position: fixed; right: 0; left: 0; top:0; backdrop-filter: blur(20px);">
     <nav class="container-fluid" style="box-shadow: 0 1px 0 rgba(115, 130, 140, 0.2);">
         <ul>
             <li><a href="/"><strong>BetterVanilla✨</strong></a></li>
@@ -101,6 +101,13 @@
             <li>
                 <a href="/downloads">Downloads</a>
             </li>
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/impressum">Impressum</a>
+            </li>
+            
         </ul>
     </nav>
 </div>

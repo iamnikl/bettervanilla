@@ -2,13 +2,6 @@
     <title>Sources</title>
     <meta name="description" content="Modpack sources-list page" />
 </svelte:head>
-<!-- <head>
-    <link rel="stylesheet" href="../../../static/css/scss/main.css">
-    <link rel="stylesheet" href="../../../static/css/global.css">
-    
-    <link rel="stylesheet" href="../../../static/css/theme-green.css">
-    <link rel="stylesheet" href="../../../static/css/pico/pico.css">
-</head> -->
 
 <br/>
 <br/>

@@ -3,10 +3,8 @@
 }
 
 #developersContainer {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0px !important;
@@ -18,10 +16,8 @@
 }
 
 #developersContainer article {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0px;
@@ -64,13 +60,11 @@
   font-weight: 600;
 }
 #personWorkInformations details summary {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 #personWorkInformations details summary h4 {
   display: inline-block;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }

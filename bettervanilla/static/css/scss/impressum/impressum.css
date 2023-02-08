@@ -4,3 +4,38 @@ hgroup.siteThemeHeader {
 hgroup.siteThemeHeader h1 {
     font-size: 2rem;
 }
+.textContent {
+    padding: 20px 15% 10px 15%;
+
+    /* min-width: 600px; */
+}
+.textContent + h2 {
+    margin-top: 20px;
+    padding-left: 15%;
+    font-size: 1.4rem;
+    margin: 0;
+
+    color: var(--primary);
+}
+.shortInformations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.shortInformations article {
+    margin: 0;
+    font-size: 0.9rem;
+    min-width: fit-content;
+}
+.shortInformations article::first-line {
+    color: var(--primary);
+    font-weight: 500;
+}
+.textContent .innerHeaders {
+    display: block;
+    font-size: 1.2rem;
+    margin: 30px 0px 10px 0px;
+    font-weight: 600;
+    filter: brightness(70%);
+}
