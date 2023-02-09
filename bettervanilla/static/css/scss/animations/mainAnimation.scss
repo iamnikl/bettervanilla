@@ -12,3 +12,15 @@
         margin-top: 0;
     }
 }
+
+// Animation für einblendenen Nav-Bereich -> Child von <div>, sodass der Hauptinhalt sich nicht verschiebt | Niklas 9.2.23
+nav {
+    animation: comein-from-top;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes comein-from-top {
+    from {margin-top: -20vh;}
+    to {margin-top: 0px;}
+}

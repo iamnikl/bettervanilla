@@ -74,11 +74,11 @@
                 <h4 class="header-gray-light">Seine Arbeit</h4>
             </summary>
             <ul>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
+                <li>About-Seite</li>
+                <li>Impressum</li>
+                <li>Quellen-Seite</li>
+                <li>CSS Erweiterungen</li>
+                <a href="https://github.com/iamnikl/bettervanilla" role="button" target="_blank" rel="noreferrer">Quellcode</a>
             </ul>
         </details>
     </article>

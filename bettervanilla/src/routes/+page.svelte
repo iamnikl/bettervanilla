@@ -27,7 +27,7 @@
                 <img src="/img/sodium.png" alt="sodium">
             </div>
             <div>
-                <p style="line-height:2;">This modpack includes various optimization mods:<br/>
+                <p class="startpage-modlist">This modpack includes various optimization mods:<br/><br/>
                     <a href="/docs/mods/Sodium">
                         <kbd class="box-shadow">Sodium</kbd>
                     </a> 
@@ -65,7 +65,7 @@
                 <img src="/img/bettercmdblui.png" alt="bettercommandblockui">
             </div>
             <div>
-                <p style="line-height:2;">There are some utility mods too:<br/>
+                <p class="startpage-modlist">There are some utility mods too:<br/><br/>
                     <a href="/docs/mods/BetterCommandBlockUI">
                         <kbd class="box-shadow">BetterCommandBlockUi</kbd>
                     </a>
@@ -112,7 +112,7 @@
                 <img src="/img/firstpersonmodel.jpg" alt="lambdynamiclights">
             </div>
             <div>
-                <p style="line-height:2;">Visual and Audio mods:<br/>
+                <p class="startpage-modlist">Visual and Audio mods:<br/><br/>
                     <a href="/docs/mods/FirstPersonModel">
                         <kbd class="box-shadow">Firest-person Model</kbd>
                     </a>
