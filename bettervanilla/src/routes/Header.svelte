@@ -96,6 +96,9 @@
                 </details>
             </li>
             <li>
+                <a href="/preview">Vorschau</a>
+            </li>
+            <li>
                 <a href="/docs">Docs</a>
             </li>
             <li>

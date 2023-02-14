@@ -30,7 +30,7 @@ hgroup.siteThemeHeader h1 {
 }
 .shortInformations article::first-line {
     color: var(--primary);
-    font-weight: 500;
+    font-weight: bold;
 }
 .textContent .innerHeaders {
     display: block;
