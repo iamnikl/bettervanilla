@@ -1,0 +1,39 @@
+@keyframes fromTopToPage {
+  0% {
+    margin-top: -5rem;
+  }
+  100% {
+    margin-top: 8rem;
+  }
+}
+#mainCenteredHeader {
+  animation: fromTopToPage;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 8rem;
+}
+
+p {
+  padding: 2rem;
+}
+p img {
+  display: block;
+  height: 20rem;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: -5px 4px 10px -5px rgba(104, 104, 104, 0.637);
+  -webkit-box-shadow: -5px 4px 10px -5px rgba(94, 94, 94, 0.63);
+  -moz-box-shadow: -5px 4px 10px -5px rgba(99, 99, 99, 0.671);
+}
+p a:nth-of-type(odd) img {
+  float: right;
+  margin: 20px 0px 20px 20px;
+}
+p a:nth-of-type(even) img {
+  float: left;
+  margin: 20px 20px 20px 0px;
+}
+p::first-letter {
+  display: inline-block;
+  font-size: 2rem;
+}/*# sourceMappingURL=modinfos.css.map */

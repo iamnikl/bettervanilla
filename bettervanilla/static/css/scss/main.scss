@@ -21,26 +21,26 @@ body {
     height: 8px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #5c5c5c;
+    background: #5c5c5c79;
     border: 0px none #ffffff;
     border-radius: 36px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #707070;
+    background: #7070708c;
 }
 ::-webkit-scrollbar-thumb:active {
-    background: #3f3f3f;
+    background: #3f3f3f88;
 }
 ::-webkit-scrollbar-track {
-    background: #303030;
+    background: #3030308c;
     border: 0px none #ffffff;
     border-radius: 86px;
 }
 ::-webkit-scrollbar-track:hover {
-    background: #383838;
+    background: #383838ad;
 }
 ::-webkit-scrollbar-track:active {
-    background: #333333;
+    background: #33333386;
 }
 ::-webkit-scrollbar-corner {
     background: transparent;

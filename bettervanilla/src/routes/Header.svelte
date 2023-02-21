@@ -74,7 +74,24 @@
         document.documentElement.setAttribute('data-theme', 'light');
         themeTitle = "Theme☀️";
     }
+    //:start - Niklas
+    function openDetailsList() {
+        let el = document.getElementById(this.getAttribute("id"));
+
+        el.setAttribute("open", "");
+    }
+    function closeDetailsList() {
+        document.getElementById(this.getAttribute("id")).removeAttribute("open")
+    }
+    //:end - Niklas
 </script>
+
+<style>
+    .specialDetailsItem {
+        color: orange;
+        font-weight: 600;
+    }
+</style>
 
 <div style="-webkit-backdrop-filter: blur(20px); z-index: 99; position: fixed; right: 0; left: 0; top:0; backdrop-filter: blur(20px);">
     <nav class="container-fluid" style="box-shadow: 0 1px 0 rgba(115, 130, 140, 0.2);">
@@ -82,8 +99,8 @@
             <li><a href="/"><strong>BetterVanilla✨</strong></a></li>
         </ul>
         <ul>
-            <li>
-                <details role="list" dir="rtl" id="themeSelector">
+            <li>        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                <details role="list" dir="rtl" id="themeSelector" on:mouseover={openDetailsList} on:mouseleave={closeDetailsList}>
                     <summary aria-haspopup="listbox" role="link">{themeTitle}</summary>
                     <ul role="listbox">
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
@@ -95,8 +112,20 @@
                     </ul>
                 </details>
             </li>
-            <li>
-                <a href="/preview">Vorschau</a>
+            <li>        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                <details role="list" dir="ltr" id="modsInfoSelector" on:mouseover={openDetailsList} on:mouseleave={closeDetailsList}>
+                    <summary aria-haspopup="listbox" role="link">Mod Informationen</summary>
+                    <ul role="listbox">
+                        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                        <li><a href={'./mod-informations'}>Was ist ein Mod?</a></li>
+                        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                        <li><a href={'./mod-informations'}>Was ist ein Modpack</a></li>
+                        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                        <li><a href={'./mod-informations'}>Wieso <samp>BetterVanilla</samp>?</a></li>
+                        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                        <li><a href={'./mod-informations'} class="specialDetailsItem">Teste dein Wissen!</a></li>
+                    </ul>
+                </details>
             </li>
             <li>
                 <a href="/docs">Docs</a>
