@@ -1131,18 +1131,18 @@ textarea {
 ::-ms-expand {
   display: none;
 } */
-
+/* 
 [type=file],
 [type=range] {
   padding: 0;
   border-width: 0;
-}
-
+} */
+/* 
 input:not([type=checkbox], [type=radio], [type=range]) {
   height: calc(1rem * var(--line-height) + var(--form-element-spacing-vertical) * 2 + var(--border-width) * 2);
-}
+} */
 
-fieldset {
+/* fieldset {
   margin: 0;
   margin-bottom: var(--spacing);
   padding: 0;
@@ -1154,7 +1154,7 @@ fieldset legend {
   display: block;
   margin-bottom: calc(var(--spacing) * 0.25);
   font-weight: var(--form-label-font-weight, var(--font-weight));
-}
+} */
 
 input:not([type=checkbox], [type=radio]),
 select,
@@ -2483,6 +2483,7 @@ a[aria-busy=true] {
 [data-tooltip]:focus::before, [data-tooltip]:focus::after, [data-tooltip]:hover::before, [data-tooltip]:hover::after {
   opacity: 1;
 }
+/* ?? */
 @media (hover: hover) and (pointer: fine) {
   [data-tooltip][data-placement=bottom]:focus::before, [data-tooltip][data-placement=bottom]:focus::after, [data-tooltip][data-placement=bottom]:hover [data-tooltip]:focus::before, [data-tooltip][data-placement=bottom]:hover [data-tooltip]:focus::after, [data-tooltip]:hover::before, [data-tooltip]:hover::after {
     animation-duration: 0.2s;
@@ -2646,6 +2647,7 @@ textarea,
 /**
 * Reduce Motion Features
 */
+/* ???? */
 @media (prefers-reduced-motion: reduce) {
   *:not([aria-busy=true]),
 :not([aria-busy=true])::before,
