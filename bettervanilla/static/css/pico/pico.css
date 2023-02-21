@@ -939,7 +939,7 @@ button,
 
 button {
   display: block;
-  width: 100%;
+  width: fit-content;
   margin-bottom: var(--spacing);
 }
 

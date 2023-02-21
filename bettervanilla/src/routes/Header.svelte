@@ -117,13 +117,13 @@
                     <summary aria-haspopup="listbox" role="link">Mod Informationen</summary>
                     <ul role="listbox">
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                        <li><a href={'./mod-informations'}>Was ist ein Mod?</a></li>
+                        <li><a href={'/mod-informations'}>Was ist ein Mod?</a></li>
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                        <li><a href={'./mod-informations'}>Was ist ein Modpack</a></li>
+                        <li><a href={'/mod-informations'}>Was ist ein Modpack</a></li>
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                        <li><a href={'./mod-informations'}>Wieso <samp>BetterVanilla</samp>?</a></li>
+                        <li><a href={'/mod-informations'}>Wieso <samp>BetterVanilla</samp>?</a></li>
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                        <li><a href={'./mod-informations'} class="specialDetailsItem">Teste dein Wissen!</a></li>
+                        <li><a href={'/mod-informations/quiz'} class="specialDetailsItem">Teste dein Wissen!</a></li>
                     </ul>
                 </details>
             </li>
