@@ -1,28 +1,17 @@
+<svelte:head>
+    <title>Mod Quiz | Bettervanilla</title>
+</svelte:head>
+
 <link rel="stylesheet" href="../css/scss/mod-infos/modinfos.css">
+<link rel="stylesheet" href="../css/scss/quiz/quiz.css">
+
 <script>
     import { startQuiz } from "./quiz";
-    import MultipleChoise from "./components/multiple-choise.svelte";
-    import UserInput from "./components/user-input.svelte";
-    import { onMount } from "svelte";
 
-    // onMount(() => {
-    //     startQuiz()
-    // })
+    import MultipleChoise from "./components/multiple-choise.svelte";
+    import QuestionAnswer from "./components/question-answer.svelte";
 </script>
-<style>
-    #quizArea,
-    #resultArea {
-        margin-top: 5rem;
-        display: none;
-    }
-    #timeCounter,
-    #crnt-question {
-        text-align: center;
-    }
-    .quiz-components {
-        display: none;
-    }
-</style>
+
 <center id="mainCenteredHeader">
     <hgroup>
         <h1>Teste dein Wissen</h1>
@@ -30,11 +19,12 @@
     </hgroup>
     <button on:click={startQuiz}>Starten!</button>
 </center>
+
 <div id="quizArea">
-    <h3 id="timeCounter">0</h3>
+    <h3 id="questionCounter">0</h3>
     <h1 id="crnt-question"></h1>
     <div class="quiz-components mc"><MultipleChoise /></div>
-    <div class="quiz-components userinput"><UserInput /></div>
+    <div class="quiz-components userinput"></div>
 </div>
 <center>
     <div id="resultArea">
@@ -43,3 +33,6 @@
     <button onclick="window.location.reload()">Nochmal Spielen!</button>
 </div>
 </center>
+<div id="question-result-area">
+    <QuestionAnswer />
+</div>
