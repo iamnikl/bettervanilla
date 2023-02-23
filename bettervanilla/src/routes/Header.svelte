@@ -119,9 +119,9 @@
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                         <li><a href={'/mod-informations'}>Was ist ein Mod?</a></li>
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                        <li><a href={'/mod-informations'}>Was ist ein Modpack</a></li>
+                        <li><a href={'/mod-informations/modpack'}>Was ist ein Modpack</a></li>
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                        <li><a href={'/mod-informations'}>Wieso <samp>BetterVanilla</samp>?</a></li>
+                        <li><a href={'/mod-informations/why-bettervanilla'}>Wieso <samp>BetterVanilla</samp>?</a></li>
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                         <li><a href={'/mod-informations/quiz'} class="specialDetailsItem">Teste dein Wissen!</a></li>
                     </ul>
