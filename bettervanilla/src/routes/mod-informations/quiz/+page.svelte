@@ -30,6 +30,12 @@
     <div id="resultArea">
     <h1>Dein Ergebnis</h1>
     <h2 style="font-weight: 400;"></h2>
+    <table id="final-result-table">
+        <tr>
+            <th>Frage</th>
+            <th>Deine Antwort</th>
+        </tr>
+    </table>
     <button onclick="window.location.reload()">Nochmal Spielen!</button>
 </div>
 </center>

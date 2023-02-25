@@ -110,3 +110,34 @@
     color: white;
     padding-top: 20px;
 }
+#final-result-table {
+    th {
+        font-weight: 600;
+    }
+    [data-answerisright="true"] {
+        color: var(--primary-hover);
+    }
+    [data-answerisright="false"] {
+        color: rgb(255, 67, 67);
+        &::before {
+            content: "X";
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: red;
+            color: white;
+            border-radius: 100%;
+            width: 1rem;
+            height: 1rem;
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        &::after {
+            content: attr(title)".";
+            display: block;
+            color: var(--secondary);
+            font-size: 0.8rem;
+        } 
+    }
+}

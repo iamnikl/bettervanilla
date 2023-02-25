@@ -56,7 +56,7 @@
 }
 #personWorkInformations .header-gray-light {
   font-size: 1rem;
-  color: rgb(170, 170, 170);
+  color: var(--secondary);
   font-weight: 600;
 }
 #personWorkInformations details summary {
@@ -72,7 +72,7 @@
   color: var(--primary-hover);
 }
 #personWorkInformations ul {
-  color: rgb(236, 236, 236);
+  color: var(--secondary);
 }
 #personWorkInformations ul ::marker {
   color: rgb(82, 82, 82);

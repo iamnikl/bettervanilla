@@ -78,6 +78,7 @@
                 <li>Impressum</li>
                 <li>Quellen-Seite</li>
                 <li>CSS Erweiterungen</li>
+                <li><strong>Quiz</strong></li>
                 <a href="https://github.com/iamnikl/bettervanilla" role="button" target="_blank" rel="noreferrer">Quellcode</a>
             </ul>
         </details>

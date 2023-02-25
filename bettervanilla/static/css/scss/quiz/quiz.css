@@ -110,4 +110,34 @@
 #q-a-display-msg {
   color: white;
   padding-top: 20px;
+}
+
+#final-result-table th {
+  font-weight: 600;
+}
+#final-result-table [data-answerisright=true] {
+  color: var(--primary-hover);
+}
+#final-result-table [data-answerisright=false] {
+  color: rgb(255, 67, 67);
+}
+#final-result-table [data-answerisright=false]::before {
+  content: "X";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+#final-result-table [data-answerisright=false]::after {
+  content: attr(title) ".";
+  display: block;
+  color: var(--secondary);
+  font-size: 0.8rem;
 }/*# sourceMappingURL=quiz.css.map */
