@@ -11,17 +11,15 @@
     </hgroup>
 </center>
 <p>
-    Mods sind eine erstaunliche Möglichkeit, um das Spielerlebnis in Videospielen zu erweitern und zu verbessern. Eine Mod ist im Grunde genommen eine Anpassung oder ein Zusatz zum ursprünglichen Spiel, die von Spielern erstellt wurde, um ihre Erfahrung zu verbessern oder um etwas Neues hinzuzufügen. Die meisten Mods werden von Fans der Spiele erstellt und sind oft kostenlos verfügbar.
-    <a href="https://www.reddit.com/r/PewdiepieSubmissions/comments/ceco3m/pls_tell_felix_to_use_thisshaders_mod/" target="_blank" rel="noopener noreferrer"><img src="/img/mod-infos/before-and-after-mods.webp" title="Unterschied im Minecraft Gameplay - Vor und nach der Verwendung von Mods" alt="Unterschied im Minecraft Gameplay - Vor und nach der Verwendung von Mods"></a>
+    Unser Minecraft Modpack bietet eine umfangreiche Sammlung von Mods, die das Spiel auf eine neue Ebene bringen. Mit mehr als X Mods, die sorgfältig ausgewählt wurden, gibt es immer etwas Neues zu entdecken und auszuprobieren. Diese Mods reichen von neuen Waffen, Rüstungen und Werkzeugen bis hin zu neuen Tieren, Pflanzen und Biomen.
     <br><br>
-Mods gibt es für viele verschiedene Spiele, von Minecraft über Skyrim bis hin zu Grand Theft Auto. Sie können in der Regel auf speziellen Modding-Websites oder in den offiziellen Foren des Spiels gefunden werden. Es gibt auch Mod-Manager-Tools, die das Installieren und Verwalten von Mods erleichtern können.
-<br><br>
-Die Möglichkeiten, die Mods bieten, sind nahezu endlos. Sie können neue Spielinhalte hinzufügen, wie zum Beispiel Waffen, Fahrzeuge, Charaktere oder sogar ganze Karten und Welten. Sie können auch das Gameplay anpassen, indem sie die Schwierigkeit erhöhen oder verringern, neue Spielmechaniken hinzufügen oder die Grafik verbessern. Manchmal werden Mods auch genutzt, um Probleme oder Fehler im Spiel zu beheben.
-<br><br>
-Mods haben auch eine starke Community von Entwicklern und Nutzern, die sich über Foren, Chats und Discord-Server austauschen. Die Community ist oft sehr hilfsbereit und teilt gerne Tipps und Tricks, um Mods zu erstellen oder zu installieren. Viele Mods sind auch Open-Source, was bedeutet, dass andere Entwickler sie weiterentwickeln und verbessern können.
-<br><br>
-Es ist jedoch wichtig zu beachten, dass das Installieren von Mods manchmal zu Problemen führen kann. Mods können das Spiel instabil machen oder zu Fehlern führen. Außerdem können einige Mods die Spielbalance beeinträchtigen oder sogar den Multiplayer-Modus beeinflussen. Es ist daher wichtig, Mods nur von vertrauenswürdigen Quellen herunterzuladen und sorgfältig zu überprüfen, ob sie mit der Version des Spiels kompatibel sind.
-<a href="https://modrinth.com/mod/first-person-model" target="_blank" rel="noopener noreferrer"><img src="/img/firstpersonmodel.jpg" alt="lambdynamiclights" style="width: 20rem; height:20rem;"></a>
-<br><br>
-Insgesamt bieten Mods eine fantastische Möglichkeit, das Spielerlebnis in Videospielen zu erweitern und zu verbessern. Die Community der Mod-Entwickler und -Nutzer ist leidenschaftlich und engagiert, und es gibt viele großartige Mods, die das Spielen noch aufregender machen können. Wenn du noch keine Mods ausprobiert hast, solltest du es unbedingt tun und selbst herausfinden, wie viel Spaß sie machen können.
+    Die Vielfalt der Mods in unserem Modpack bietet auch zahlreiche Verbesserungen der Spielmechanik, die das Spielerlebnis insgesamt verbessern. Zum Beispiel fügt das Modpack neue Crafting-Rezepte hinzu, die es einfacher machen, bestimmte Gegenstände herzustellen. Es gibt auch neue Maschinen und Geräte, die das Sammeln und Verarbeiten von Ressourcen automatisieren und das Spiel effizienter und bequemer machen.
+    <br><br>
+    Das Modpack ist auch sehr benutzerfreundlich. Wir haben unserganzes Team sorgfältig darum bemüht, alle Mods im Modpack sorgfältig zu testen, um sicherzustellen, dass sie reibungslos miteinander funktionieren und keine Konflikte verursachen. Wir haben auch eine benutzerfreundliche Schnittstelle entwickelt, die es einfach macht, das Modpack zu installieren und zu verwenden, selbst für Benutzer, die nicht mit Mods vertraut sind.
+    <br><br>
+    Das Modpack bietet auch eine große Flexibilität, um das Spiel nach den Bedürfnissen und Vorlieben der Spieler anzupassen. Zum Beispiel können sie die Schwierigkeit anpassen, neue Mods hinzufügen oder entfernen, oder das Aussehen des Spiels ändern, indem sie Texturenpakete installieren. Mit der Möglichkeit, das Spiel nach den individuellen Vorlieben anzupassen, können Spieler eine einzigartige Minecraft-Erfahrung erleben.
+    <br><br>
+    Neben den zahlreichen Vorteilen bietet unser Modpack auch eine aktive Community von Spielern und Entwicklern. Mit einer Community, die ständig neue Mods und Funktionen hinzufügt und das Modpack ständig aktualisiert und verbessert, ist unser Modpack die beste Wahl für jeden Minecraft-Spieler, der das ultimative Minecraft-Erlebnis schaffen möchte.
+    <br><br>
+    Zusammenfassend bietet unser Minecraft Modpack eine breite Palette von Vorteilen, die es zu einem unverzichtbaren Bestandteil des Minecraft-Erlebnisses machen. Von neuen Inhalten und verbesserten Spielmechaniken bis hin zu einfacher Installation und Anpassungsmöglichkeiten ist unser Modpack die beste Wahl für jeden Minecraft-Spieler, der das Spiel auf die nächste Ebene bringen möchte. Mit unserer Community können Spieler eine einzigartige und lebendige Minecraft-Erfahrung genießen, die sie nirgendwo sonst finden können.
 </p>

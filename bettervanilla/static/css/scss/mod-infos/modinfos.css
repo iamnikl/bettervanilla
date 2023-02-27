@@ -24,16 +24,20 @@ p img {
   box-shadow: -5px 4px 10px -5px rgba(104, 104, 104, 0.637);
   -webkit-box-shadow: -5px 4px 10px -5px rgba(94, 94, 94, 0.63);
   -moz-box-shadow: -5px 4px 10px -5px rgba(99, 99, 99, 0.671);
-}
-p a:nth-of-type(odd) img {
-  float: right;
-  margin: 20px 0px 20px 20px;
-}
-p a:nth-of-type(even) img {
-  float: left;
-  margin: 20px 20px 20px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 p::first-letter {
   display: inline-block;
   font-size: 2rem;
+}
+
+a img.float-right {
+  float: right;
+  margin: 20px 0px 20px 20px;
+}
+
+a img.float-left {
+  float: left;
+  margin: 20px 20px 20px 0px;
 }/*# sourceMappingURL=modinfos.css.map */
