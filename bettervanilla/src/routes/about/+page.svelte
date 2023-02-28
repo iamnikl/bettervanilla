@@ -14,8 +14,8 @@
     <section id="developersContainer">
         <a href="#a">
             <article>
-                <h2>+</h2>
-                <h3>+</h3>
+                <h2>HACCKKER</h2>
+                <h3>&nbsp;</h3>
             </article>
         </a>
         <a href="#leonie">
@@ -34,23 +34,30 @@
     <!-- <small>Go back to the <a href="/">homepage</a></small> -->
 </center>
 <div id="personWorkInformations">
-    <article id="a">
-        <h3>+</h3>
+    <p id="a" style="position: relative; top: -3.7rem; visibility: hidden;"></p>
+
+    <article>
+        <h3><a href="https://github.com/HACCKKER">HACCKKER</a></h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum? Sapiente natus accusamus consequuntur eos quibusdam facere, ducimus ullam tempora atque nobis cumque nam est voluptas doloremque laudantium veniam odit.</p>
         <details>
             <summary>
                 <h4 class="header-gray-light">Seine Arbeit</h4>
             </summary>
             <ul>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
+                <li>Header & Footer</li>
+                <li>Project structure</li>
+                <li>Deployment</li>
+                <li>Modpack</li>
+                <li>Docs</li>
+                <li>Downloads</li>
+                <li>Main page</li>
             </ul>
         </details>
     </article>
-    <article id="leonie">
+    <p id="leonie" style="position: relative; top: -3.7rem; visibility: hidden;"></p>
+
+    <article>
+
         <h3>Leonie</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum? Sapiente natus accusamus consequuntur eos quibusdam facere, ducimus ullam tempora atque nobis cumque nam est voluptas doloremque laudantium veniam odit.</p>
         <details>
@@ -58,15 +65,15 @@
                 <h4 class="header-gray-light">Ihre Arbeit</h4>
             </summary>
             <ul>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
-                <li>Header</li>
+                <li>Modpack Informationsseite</li>
+                <li>Mod Informationsseite</li>
+                <li>Impressum</li>
+                <li>Style</li>
             </ul>
         </details>
     </article>
-    <article id="niklas">
+    <p id="niklas" style="position: relative; top: -3.7rem; visibility: hidden;"></p>
+    <article>
         <h3>Niklas</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum? Sapiente natus accusamus consequuntur eos quibusdam facere, ducimus ullam tempora atque nobis cumque nam est voluptas doloremque laudantium veniam odit.</p>
         <details>
@@ -77,6 +84,7 @@
                 <li>About-Seite</li>
                 <li>Impressum</li>
                 <li>Quellen-Seite</li>
+                <li>"Warum Bettervanilla"-Seite</li>
                 <li>CSS Erweiterungen</li>
                 <li><strong>Quiz</strong></li>
                 <a href="https://github.com/iamnikl/bettervanilla" role="button" target="_blank" rel="noreferrer">Quellcode</a>

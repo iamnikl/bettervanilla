@@ -100,7 +100,7 @@
         </ul>
         <ul>
             <li>        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                <details role="list" dir="rtl" id="themeSelector" on:mouseover={openDetailsList} on:mouseleave={closeDetailsList}>
+                <details role="list" id="themeSelector" on:mouseover={openDetailsList} on:mouseleave={closeDetailsList}>
                     <summary aria-haspopup="listbox" role="link">{themeTitle}</summary>
                     <ul role="listbox">
                         <!-- svelte-ignore a11y-mouse-events-have-key-events -->

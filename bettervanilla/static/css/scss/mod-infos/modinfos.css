@@ -27,7 +27,8 @@ p img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-p::first-letter {
+
+p:first-of-type::first-letter {
   display: inline-block;
   font-size: 2rem;
 }
