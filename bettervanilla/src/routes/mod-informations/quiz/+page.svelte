@@ -17,7 +17,7 @@
         <h1>Teste dein Wissen</h1>
         <h2>Wie gut kennst du dich jetzt aus?</h2>
     </hgroup>
-    <button on:click={startQuiz}>Starten!</button>
+    <button on:click={startQuiz} class="box-shadow">Starten!</button>
 </center>
 
 <div id="quizArea">

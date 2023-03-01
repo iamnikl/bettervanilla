@@ -105,6 +105,10 @@
     bottom: 0;
     right: 0;
     width: 100%;
+
+    button {
+        margin-bottom: 20px;
+    }
 }
 #q-a-display-msg {
     color: white;
@@ -140,4 +144,7 @@
             font-size: 0.8rem;
         } 
     }
+}
+#resultArea button {
+    margin: 20px;
 }

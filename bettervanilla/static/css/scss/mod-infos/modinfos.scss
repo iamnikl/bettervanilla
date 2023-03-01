@@ -41,3 +41,28 @@ a img.float-left {
     float: left;
     margin: 20px 20px 20px 0px;
 }
+
+[data-use-numbers]::before {
+    content: attr(data-use-numbers)".";
+    display: inline-block;
+    color: var(--secondary);
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+
+    img {
+        display: block;
+        width: 25rem;
+        border-radius: 10px;
+    }
+}

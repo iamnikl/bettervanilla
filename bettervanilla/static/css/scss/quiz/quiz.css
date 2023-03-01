@@ -106,6 +106,9 @@
   right: 0;
   width: 100%;
 }
+#answer-msg-main button {
+  margin-bottom: 20px;
+}
 
 #q-a-display-msg {
   color: white;
@@ -140,4 +143,8 @@
   display: block;
   color: var(--secondary);
   font-size: 0.8rem;
+}
+
+#resultArea button {
+  margin: 20px;
 }/*# sourceMappingURL=quiz.css.map */

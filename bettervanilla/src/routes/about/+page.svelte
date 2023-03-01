@@ -3,6 +3,11 @@
     <meta name="description" content="About this website" />
 </svelte:head>
 
+<style>
+    details ul {
+        cursor: default;
+    }
+</style>
 
 <center>
     <hgroup class="marginToHeader">
@@ -35,11 +40,11 @@
 </center>
 <div id="personWorkInformations">
     <p id="a" style="position: relative; top: -3.7rem; visibility: hidden;"></p>
-
     <article>
         <h3><a href="https://github.com/HACCKKER">HACCKKER</a></h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum? Sapiente natus accusamus consequuntur eos quibusdam facere, ducimus ullam tempora atque nobis cumque nam est voluptas doloremque laudantium veniam odit.</p>
-        <details>
+        <p>Klasse VK - Informatik Diff 9</p>
+
+        <details open>
             <summary>
                 <h4 class="header-gray-light">Seine Arbeit</h4>
             </summary>
@@ -57,10 +62,9 @@
     <p id="leonie" style="position: relative; top: -3.7rem; visibility: hidden;"></p>
 
     <article>
-
         <h3>Leonie</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum? Sapiente natus accusamus consequuntur eos quibusdam facere, ducimus ullam tempora atque nobis cumque nam est voluptas doloremque laudantium veniam odit.</p>
-        <details>
+        <p>Klasse 9B - Informatik Diff 9</p>
+        <details open>
             <summary>
                 <h4 class="header-gray-light">Ihre Arbeit</h4>
             </summary>
@@ -75,18 +79,21 @@
     <p id="niklas" style="position: relative; top: -3.7rem; visibility: hidden;"></p>
     <article>
         <h3>Niklas</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, dolorum? Sapiente natus accusamus consequuntur eos quibusdam facere, ducimus ullam tempora atque nobis cumque nam est voluptas doloremque laudantium veniam odit.</p>
-        <details>
+        <p>Klasse 9C - Informatik Diff 9</p>
+        <details open>
             <summary>
                 <h4 class="header-gray-light">Seine Arbeit</h4>
             </summary>
+            
             <ul>
                 <li>About-Seite</li>
                 <li>Impressum</li>
                 <li>Quellen-Seite</li>
                 <li>"Warum Bettervanilla"-Seite</li>
-                <li>CSS Erweiterungen</li>
+                <li>Mod / Modpack Seite (Erweitert)</li>
+                <li>Style (SCSS)</li>
                 <li><strong>Quiz</strong></li>
+                <br>
                 <a href="https://github.com/iamnikl/bettervanilla" role="button" target="_blank" rel="noreferrer">Quellcode</a>
             </ul>
         </details>

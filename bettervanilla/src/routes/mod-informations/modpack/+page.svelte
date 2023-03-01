@@ -54,7 +54,6 @@ Modpacks sind besonders beliebt bei Minecraft-Spielern, da sie das Spiel um eine
 </p>
 <h2>Vorteile</h2>
 <p>
-    <a href="https://www.reddit.com/r/PewdiepieSubmissions/comments/ceco3m/pls_tell_felix_to_use_thisshaders_mod/" target="_blank" rel="noopener noreferrer"><img class="float-left" src="/img/mod-infos/before-and-after-mods.webp" title="Unterschied im Minecraft Gameplay - Vor und nach der Verwendung von Mods" alt="Unterschied im Minecraft Gameplay - Vor und nach der Verwendung von Mods"></a>
 Eine der größten Vorteile von Modpacks ist, dass sie oft eine starke Community von Entwicklern und Nutzern haben. Diese Community kann hilfreich sein, wenn es darum geht, Probleme mit dem Pack zu lösen oder Tipps und Tricks zu teilen, um das Spielerlebnis zu verbessern. Einige Modpacks haben auch spezielle Server, auf denen Spieler zusammen spielen können, was das Spiel noch unterhaltsamer macht.
 <br><br>
 Es ist jedoch wichtig zu beachten, dass Modpacks auch einige Nachteile haben können. Da sie viele Mods enthalten, können sie das Spiel instabil machen oder zu Abstürzen führen. Außerdem können einige Modpacks sehr ressourcenintensiv sein und eine leistungsstarke Hardware erfordern, um reibungslos zu funktionieren. Es ist daher wichtig, sicherzustellen, dass dein Computer die Mindestanforderungen erfüllt, bevor du ein Modpack installierst.

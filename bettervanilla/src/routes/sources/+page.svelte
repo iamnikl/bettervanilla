@@ -15,19 +15,13 @@
     
     <table role="grid" class="referenceTable">
         <thead>
-            <th>Description</th>
-            <th>Reference</th>
+            <th>Beschreibung</th>
+            <th>Link</th>
         </thead>
         <tbody>
             <!-- Development -->
             <tr>
                 <td colspan="2"><span data-undercategory="All">Development</span></td>
-            </tr>
-            <tr>
-                <td>Pico CSS</td>
-                <td>
-                    <a href="https://picocss.com/">&nbsp;</a>
-                </td>
             </tr>
             <tr>
                 <td>SASS / SCSS</td>
@@ -69,8 +63,54 @@
                     <a href="https://modrinth.com/mod/first-person-model">&nbsp;</a>
                 </td>
             </tr>
+            <!-- IMAGES - MODS -->
+            <tr>
+                <td colspan="2"><span data-undercategory="Mods">Images</span></td>
+            </tr>
+            <tr>
+                <td>Before / After Mods Bild</td>
+                <td>
+                    <a href="https://www.reddit.com/r/PewdiepieSubmissions/comments/ceco3m/pls_tell_felix_to_use_thisshaders_mod/">&nbsp;</a>
+                </td>
+            </tr>
+            <tr>
+                <td>"Better Minecraft" Bild</td>
+                <td>
+                    <a href="https://www.pcgamesn.com/minecraft/twenty-best-minecraft-mods">&nbsp;</a>
+                </td>
+            </tr>
+            <!-- IMAGES - WHY BETTERVANILLA -->
+            <tr>
+                <td colspan="2"><span data-undercategory="Warum BetterVanilla">Images</span></td>
+            </tr>
+            <tr>
+                <td>lambdynamiclights Skelett Bild</td>
+                <td>
+                    <a href="https://modrinth.com/mod/lambdynamiclights">&nbsp;</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3DSkinLayers Avatare Foto</td>
+                <td>
+                    <a href="https://modrinth.com/mod/3dskinlayers">&nbsp;</a>
+                </td>
+            </tr>
+            <tr>
+                <td>First Person Model</td>
+                <td>
+                    <a href="https://modrinth.com/mod/first-person-model">&nbsp;</a>
+                </td>
+            </tr>
             <!-- ... -->
-            
+            <tr>
+                <td colspan="2"><span data-undercategory="All">Texte</span></td>
+            </tr>
+            <tr>
+                <td>ChatGPT</td>
+                <td>
+                    <a href="https://chat.openai.com/">&nbsp;</a>
+                </td>
+            </tr>
         </tbody>
     </table>
 </center>
@@ -78,5 +118,4 @@
 <script lang="js">
     const headerContent = "Externe Quellen";
     const sencondlyHeaderContent = "Hier befinden sich die Links zu allen externen Quellen ";
-    
 </script>
